@@ -1,0 +1,65 @@
+# Vagrant stuff
+acceptance_config.yml
+boxes/*
+.vagrant/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+test/vagrant-spec/.vagrant/
+
+# Bundler/Rubygems
+*.gem
+.bundle
+pkg/*
+tags
+/Gemfile.lock
+test/tmp/
+vendor/
+/exec
+.ruby-bundle
+
+# Documentation
+_site/*
+.yardoc/
+doc/
+
+# Python
+*.pyc
+
+# Rubinius
+*.rbc
+
+# IDE junk
+.idea/*
+*.iml
+.project
+
+# Ruby Managers
+.rbenv
+.rbenv-gemsets
+.ruby-gemset
+.ruby-version
+.rvmrc
+
+# Box storage for spec
+test/vagrant-spec/boxes/*.box
+
+
+#Logs
+*.retry
+!example.log
+# ignore all logs
+*.log
+
+# Ignore Mac system files
+.DS_store
+# Ignore node_modules folder
+node_modules
+# Ignore all text files
+*.txt
+# Ignore files related to API keys
+.env
+# Ignore SASS config files
+.sass-cache
+
