@@ -40,9 +40,9 @@ $ vagrant ssh k8s-master
 
 vagrant@k8s-master:~$ kubectl get nodes
 NAME         STATUS   ROLES    AGE     VERSION
-k8s-master   Ready    master   18m     v1.13.3
-node-1       Ready    <none>   12m     v1.13.3
-node-2       Ready    <none>   6m22s   v1.13.3
+k8s-master   Ready    master   6m35s   v1.18.2
+node-1       Ready    <none>   4m9s    v1.18.2
+node-2       Ready    <none>   2m      v1.18.2
 ```
 ## Accessing nodes
 ```
